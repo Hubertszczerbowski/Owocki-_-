@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 body, html {
-    width: 1440px;
+
     font-family: "Barlow", serif;
     font-weight: 600;
     font-style: normal;
-    /* font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
-    font-weight: 700/900;
-    font-style: normal; */
+    margin: 0;
 }
 #up {
     background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 800px;
+    width: 99vw;
+    height: 1000px;
     
     
 }
@@ -45,11 +42,15 @@ a {
 #orange {
     color: white;
 position: absolute;
-margin-left: 650px;
+margin-left: 850px;
 margin-top: 300px;
 }
 #orange img  {
     margin-left:  80px;
+}
+#mid{
+    margin-left: 300px;
+
 }
 #egg {
     width: auto;
