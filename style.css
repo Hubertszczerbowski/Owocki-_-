@@ -1,64 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
-body, html {
 
-    font-family: "Barlow", serif;
+body,
+html {
+
+    font-family: "Barlow";
     font-weight: 600;
     font-style: normal;
     margin: 0;
 }
+
 #up {
     background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 99vw;
     height: 1000px;
-    
-    
+
+
 }
-nav svg{
+
+nav svg {
     margin-top: 20px;
     margin-left: 20px;
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
     float: right;
-    
+
 }
+
 li {
     padding: 30px;
 }
+
 a {
     text-decoration: none;
-    color:  black;
+    color: black;
 }
+
 .button {
     background-color: white;
     width: 80px;
     height: 10px;
     border-radius: 50px;
 }
+
 #orange {
     color: white;
-position: absolute;
-margin-left: 850px;
-margin-top: 300px;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 300px;
 }
-#orange img  {
-    margin-left:  80px;
-}
-#mid{
-    margin-left: 300px;
 
+#orange img {
+    margin-left: 80px;
 }
+
+#mid {
+    margin-left: 250px;
+    width: 75%;
+    font-family: "Fraunces";
+    color: hsl(213, 9%, 39%);
+}
+
 #egg {
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#egg #text{
+
+#egg #text {
     width: 50%;
     height: 500px;
     float: right;
@@ -75,28 +90,31 @@ margin-top: 300px;
     height: 500px;
     float: right;
 }
+
 #text {
-    width: 50%;
+    width: 25%;
     height: 0;
     float: left;
 }
+
 #img2 {
     background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-stand-out.jpg);
     width: 50%;
-    height: 500px;  
+    height: 500px;
     float: left;
 
 }
+
 #text2 {
     width: 50%;
     height: 500px;
     float: right;
-
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #img3 {
     background-image: url(sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg);
     width: 50%;
@@ -117,7 +135,10 @@ margin-top: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-} 
-.text{
-margin-top: 300px;
-} 
+}
+
+.text {
+    text-align: center;
+    margin-top: 300px;
+    width: 50%;
+}
